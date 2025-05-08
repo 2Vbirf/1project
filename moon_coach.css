@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #EFEEE8;
+}
+header {
+    width: 1336px;
+    height: 79px;
+    margin: 0px auto 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a {
+    font-family: "Oxygen", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+}
+li {
+    display: inline-block;
+}
+li a {
+    text-decoration: none;
+}
+.gon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 254px;
+    height: 79px;
+}
+.homep {
+    margin-left: 0px;
+}
+.aboutp {
+    margin-left: 24px;
+}
+.oth {
+    margin-left: 24px;
+}
+.blo {
+    margin: 0 24px;
+
+}
+li img {
+    top: 50px;
+}
+.gon {
+    margin: 0px 24px 0px 12px;
+    padding-left: 24px;
+    padding-right: 0px;
+    border-left: 1px solid;
+}
+.gon a {
+    text-decoration: none;
+}
+.polosa {
+    width: 38px;
+    height: 1px;
+    background-color: #333333;
+}
+.opis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 890px;
+    height: 362px;
+    margin: 0 auto;
+}
+.modular {
+    font-family: "Libre Baskerville", serif;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+}
+.podt {
+    font-family: "Oxygen", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+}
+.explore {
+    margin: auto;
+    width: 242px;
+    height: 64px;
+    font-family: "Oxygen", sans-serif;
+    font-size: 22px;
+    background-color: #333333;
+    color: #EFEEE8;
+}
+.fone {
+    width: 1440px;
+    height: 700px;
+    background-color: #333333;
+    margin: 50px auto;
+}
+.priandmore {
+   display: flex;
+   flex-flow: row wrap;
+   flex-direction: row;
+   align-items: flex-start;
+   /* justify-content: space-between; */
+   /* align-content: space-between; */
+        /* display: grid;
+        grid-template-columns: 392px 392px 392px;
+        grid-template-rows: 404px 372px; */
+    width: 1240px;
+    height: 1260px;
+    margin: 50px auto;
+}
+.fi {
+    width: 392px;
+    height: 404px;
+    margin: 0px 20px;
+}
+.si {
+    width: 392px;
+    height: 552px;
+}
+.ti {
+    width: 392px;
+    height: 385px;
+}
+.fi {
+    width: 392px;
+    height: 374px;
+}
+.fii {
+    width: 392px;
+    height: 480px;
+}
